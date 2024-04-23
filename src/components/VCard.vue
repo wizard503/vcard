@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <img class="logo" alt="Jose Duran logo" src="../assets/logo.png" />
+      <img class="logo ma-md-6 ma-xs-2" alt="Jose Duran logo" src="../assets/logo.png" />
     </div>
     <div>
       <img class="foto" alt="Jose Duran logo" src="../assets/photo.jpeg" />
@@ -67,7 +67,6 @@ export default {
 .logo{
   width: 12vh;
   height: 12vh;
-  margin: 3vh;
 }
 .foto{
   margin: auto;
@@ -78,17 +77,16 @@ export default {
   border-radius: 100%;
 }
 .info{
-  margin: auto;
+  text-align: center;
+  align-content: center;
   width: 50vh;
   height: 20vh;
   color: #fff;
   background: linear-gradient(45deg,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.048),rgba(179, 169, 169, 0.39));
-  border-radius: 30px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  text-align: center;
-  align-content: center;
-  -webkit-backdrop-filter: blur(9.4px);
+  //border-radius: 30px;
+  //box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  //backdrop-filter: blur(10px);
+  
 
   &, h3{
     font-family: 'Josefin Slab';
@@ -106,9 +104,8 @@ export default {
 
 @media screen and (max-width:767px){
   .info{
-    margin: auto;
-    align-content: center;
-    justify-content: center;
+    width: 40vh;
+    height: 15vh;
 
     &, h3{  
       & :first-child{
