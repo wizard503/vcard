@@ -17,7 +17,7 @@
         </v-btn>
       </div>
       <div class="mx-4">
-        <v-btn icon="fa-solid fa-envelope" size="large" color="white">
+        <v-btn @click="correo" icon="fa-solid fa-envelope" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
@@ -53,6 +53,10 @@ export default {
     llamar(){
       const phonenumber='+50375687550';
       window.open(`tel:${phonenumber}`,'_self');
+    },
+    correo(){
+      const email='josemdg12@gmail.com';
+      window.open(`mailto:${email}`,'_self')
     }
   }
 }
