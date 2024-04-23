@@ -22,7 +22,7 @@
         </v-btn>
       </div>
       <div class="mx-4">
-        <v-btn icon="fa-brands fa-whatsapp" size="large" color="white">
+        <v-btn @click="whatsapp" icon="fa-brands fa-whatsapp" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
@@ -57,6 +57,9 @@ export default {
     correo(){
       const email='josemdg12@gmail.com';
       window.open(`mailto:${email}`,'_self')
+    },
+    whatsapp(){
+      window.open('https://wa.me/50375687550','_self','popup')
     }
   }
 }
