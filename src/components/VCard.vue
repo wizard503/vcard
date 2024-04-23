@@ -6,7 +6,7 @@
     <div>
       <img class="foto" alt="Jose Duran logo" src="../assets/photo.jpeg" />
     </div>
-    <div class="info">
+    <div class="info mt-4">
       <h3>José Durán</h3>
       <h2>FrontEnd Developer</h2>
     </div>
@@ -78,7 +78,7 @@ export default {
   border-radius: 100%;
 }
 .info{
-  margin: 4vh auto;
+  margin: auto;
   width: 50vh;
   height: 20vh;
   color: #fff;
