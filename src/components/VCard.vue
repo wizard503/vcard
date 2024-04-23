@@ -10,33 +10,33 @@
       <h3>José Durán</h3>
       <h2>FrontEnd Developer</h2>
     </div>
-    <div class="container mt-12">
-      <div class="mx-4">
+    <div class="container mt-8">
+      <div class="ma-4">
         <v-btn @click="llamar" icon="fas fa-phone" size="large" color="whie" >
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
-      <div class="mx-4">
+      <div class="ma-4">
         <v-btn @click="correo" icon="fa-solid fa-envelope" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
-      <div class="mx-4">
+      <div class="ma-4">
         <v-btn href="https://wa.me/50375687550" icon="fa-brands fa-whatsapp" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
-      <div class="mx-4">
+      <div class="ma-4">
         <v-btn href="https://github.com/wizard503/" icon="fa-brands fa-github" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
-      <div class="mx-4">
+      <div class="ma-4">
         <v-btn href="https://www.linkedin.com/in/jose-duran-dev/" icon="fa-brands fa-linkedin-in" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
-      <div class="mx-4">
+      <div class="ma-4">
         <v-btn href="https://joseduran.me/" icon="fa-solid fa-globe" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
@@ -89,7 +89,7 @@ export default {
   text-align: center;
   align-content: center;
   -webkit-backdrop-filter: blur(9.4px);
-  
+
   &, h3{
     font-family: 'Josefin Slab';
     
@@ -100,6 +100,24 @@ export default {
 
     & :last-child{
       font-size: 28px;
+    }
+  }
+}
+
+@media screen and (max-width:767px){
+  .info{
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+
+    &, h3{  
+      & :first-child{
+        font-size: 30px;
+      }
+
+      & :last-child{
+        font-size: 18px;
+      }
     }
   }
 }
