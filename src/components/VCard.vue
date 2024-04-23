@@ -10,7 +10,7 @@
       <h3>José Durán</h3>
       <h2>FrontEnd Developer</h2>
     </div>
-    <div class="container mt-16">
+    <div class="container mt-12">
       <div class="mx-4">
         <v-btn @click="llamar" icon="fas fa-phone" size="large" color="whie" >
           <v-icon color="#0a061f" size="large"/>
@@ -27,17 +27,17 @@
         </v-btn>
       </div>
       <div class="mx-4">
-        <v-btn icon="fa-brands fa-github" size="large" color="white">
+        <v-btn href="https://github.com/wizard503/" icon="fa-brands fa-github" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
       <div class="mx-4">
-        <v-btn icon="fa-brands fa-linkedin-in" size="large" color="white">
+        <v-btn href="https://www.linkedin.com/in/jose-duran-dev/" icon="fa-brands fa-linkedin-in" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
-      <div>
-        <v-btn icon="fa-solid fa-globe" size="large" color="white">
+      <div class="mx-4">
+        <v-btn href="https://joseduran.me/" icon="fa-solid fa-globe" size="large" color="white">
           <v-icon color="#0a061f" size="large"/>
         </v-btn>
       </div>
@@ -72,8 +72,8 @@ export default {
 .foto{
   margin: auto;
   display: flex;
-  width: 25vh;
-  height: 25vh;
+  width: 30vh;
+  height: 30vh;
   background-color: #fff;
   border-radius: 100%;
 }
