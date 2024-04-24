@@ -6,7 +6,7 @@
     <div>
       <img class="foto" alt="Jose Duran logo" src="../assets/photo.jpeg" />
     </div>
-    <div class="info mt-4">
+    <div class="mt-4" id="info">
       <h3>José Durán</h3>
       <h2>FrontEnd Developer</h2>
     </div>
@@ -76,7 +76,7 @@ export default {
   background-color: #fff;
   border-radius: 100%;
 }
-.info{
+#info{
   text-align: center;
   align-content: center;
   width: 50vh;
@@ -103,7 +103,7 @@ export default {
 }
 
 @media screen and (max-width:767px){
-  .info{
+  #info{
     width: 40vh;
     height: 15vh;
     text-align: center;
@@ -120,7 +120,6 @@ export default {
     }
   }
 }
-
 .container {
   display: flex;
   justify-content: center;
