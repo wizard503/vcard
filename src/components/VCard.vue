@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="vcard">
     <div>
       <img class="logo ma-md-6 ma-xs-2" alt="Jose Duran logo" src="../assets/logo.png" />
     </div>
@@ -76,7 +76,7 @@ export default {
   background-color: #fff;
   border-radius: 100%;
 }
-#info{
+.vcard #info{
   text-align: center !important;
   align-content: center !important;
   width: 50vh;
