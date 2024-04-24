@@ -64,12 +64,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
+*{
+  margin: auto;
+}
 .logo{
   width: 12vh;
   height: 12vh;
 }
 .foto{
-  margin: auto;
   display: flex;
   width: 30vh;
   height: 30vh;
@@ -77,8 +79,8 @@ export default {
   border-radius: 100%;
 }
 .info{
-  text-align: center !important;
-  align-content: center !important;
+  align-content: center;
+  text-align: center;
   width: 50vh;
   height: 20vh;
   color: #fff;
@@ -86,7 +88,7 @@ export default {
   border-radius: 30px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  
+  -webkit-backdrop-filter: blur(9.4px);
 
   &, h3{
     font-family: 'Josefin Slab';
