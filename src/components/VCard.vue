@@ -83,9 +83,9 @@ export default {
   height: 20vh;
   color: #fff;
   background: linear-gradient(45deg,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.048),rgba(179, 169, 169, 0.39));
-  //border-radius: 30px;
-  //box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  //backdrop-filter: blur(10px);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
   
 
   &, h3{
@@ -106,6 +106,8 @@ export default {
   .info{
     width: 40vh;
     height: 15vh;
+    text-align: center;
+    align-content: center;
 
     &, h3{  
       & :first-child{
