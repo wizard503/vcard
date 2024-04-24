@@ -1,13 +1,13 @@
 <template>
-  <div class="vcard">
+  <div>
     <div>
       <img class="logo ma-md-6 ma-xs-2" alt="Jose Duran logo" src="../assets/logo.png" />
     </div>
     <div>
       <img class="foto" alt="Jose Duran logo" src="../assets/photo.jpeg" />
     </div>
-    <div class="mt-4" id="info">
-      <h3>José Durán</h3>
+    <div class="info mt-4">
+      <h3 class="mt-xs-4">José Durán</h3>
       <h2>FrontEnd Developer</h2>
     </div>
     <div class="container mt-8">
@@ -76,7 +76,7 @@ export default {
   background-color: #fff;
   border-radius: 100%;
 }
-.vcard #info{
+.info{
   text-align: center !important;
   align-content: center !important;
   width: 50vh;
@@ -103,11 +103,9 @@ export default {
 }
 
 @media screen and (max-width:767px){
-  #info{
+  .info{
     width: 40vh;
     height: 15vh;
-    text-align: center;
-    align-content: center;
 
     &, h3{  
       & :first-child{
