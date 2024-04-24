@@ -104,7 +104,6 @@ export default {
 
 @media screen and (max-width:767px){
   #info{
-    position: absolute;
     width: 40vh;
     height: 15vh;
     text-align: center;
