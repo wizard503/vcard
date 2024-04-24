@@ -77,8 +77,8 @@ export default {
   border-radius: 100%;
 }
 .info{
-  //text-align: center;
-  //align-content: center;
+  text-align: center;
+  align-content: center;
   width: 50vh;
   height: 20vh;
   color: #fff;
