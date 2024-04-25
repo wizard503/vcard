@@ -7,7 +7,7 @@
       <img class="foto" alt="Jose Duran logo" src="../assets/photo.jpeg" />
     </div>
     <div class="info mt-4">
-      <h3 class="mt-xs-4">José Durán</h3>
+      <h3>José Durán</h3>
       <h2>FrontEnd Developer</h2>
     </div>
     <div class="container mt-8">
@@ -112,6 +112,7 @@ export default {
     &, h3{  
       & :first-child{
         font-size: 30px;
+        padding-top: 1vh;
       }
 
       & :last-child{
