@@ -4,7 +4,7 @@
       <img class="logo ma-md-6 ma-xs-2" alt="Jose Duran logo" src="../assets/logo.png" />
     </div>
     <div>
-      <img class="foto" alt="Jose Duran logo" src="../assets/photo.jpeg" />
+      <img class="foto" alt="Jose Duran logo" src="../assets/photo.webp" />
     </div>
     <div class="info mt-4">
       <h3>José Durán</h3>
