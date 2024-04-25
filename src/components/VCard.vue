@@ -112,7 +112,7 @@ export default {
     &, h3{  
       & :first-child{
         font-size: 30px;
-        padding-top: 1vh;
+        padding-top: 3vh;
       }
 
       & :last-child{
