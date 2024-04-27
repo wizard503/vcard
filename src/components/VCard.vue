@@ -107,16 +107,10 @@ export default {
 @media screen and (max-width:767px){
   .info{
     width: 40vh;
-    height: 15vh;
 
     &, h3{  
       & :first-child{
-        font-size: 35px;
         padding-top: 3vh;
-      }
-
-      & :last-child{
-        font-size: 23px;
       }
     }
   }
