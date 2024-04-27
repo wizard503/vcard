@@ -111,17 +111,19 @@ export default {
 
     &, h3{  
       & :first-child{
-        font-size: 30px;
+        font-size: 35px;
         padding-top: 3vh;
       }
 
       & :last-child{
-        font-size: 18px;
+        font-size: 23px;
       }
     }
   }
 }
 .container {
+  margin-bottom: 9vh;
+  bottom: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
