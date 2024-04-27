@@ -116,7 +116,7 @@ export default {
   }
 }
 .container {
-  margin-bottom: 9vh;
+  margin-bottom: 10vh;
   bottom: 0;
   display: flex;
   justify-content: center;
